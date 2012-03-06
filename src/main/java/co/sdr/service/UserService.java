@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
+import co.sdr.domain.Cachable;
 import co.sdr.domain.User;
 
 /**
@@ -16,7 +17,7 @@ import co.sdr.domain.User;
 public class UserService implements co.sdr.service.Service<User> {
 
 	@Autowired
-	RedisTemplate<String, User> redisTemplate;
+	RedisTemplate<String, Cachable> redisTemplate;
 
 	@Override
 	public void put(User user) {
