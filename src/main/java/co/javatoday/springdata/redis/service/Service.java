@@ -1,6 +1,6 @@
-package co.sdr.service;
+package co.javatoday.springdata.redis.service;
 
-import co.sdr.domain.Cachable;
+import co.javatoday.springdata.redis.domain.Cachable;
 
 /**
  * 

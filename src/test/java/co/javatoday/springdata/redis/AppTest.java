@@ -1,4 +1,4 @@
-package co.sdm;
+package co.javatoday.springdata.redis;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

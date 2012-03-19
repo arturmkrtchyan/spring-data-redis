@@ -1,4 +1,4 @@
-package co.sdr.domain;
+package co.javatoday.springdata.redis.domain;
 
 /**
  * @author amkrtchyan

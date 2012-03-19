@@ -1,11 +1,11 @@
-package co.sdr.service;
+package co.javatoday.springdata.redis.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
-import co.sdr.domain.Cachable;
-import co.sdr.domain.User;
+import co.javatoday.springdata.redis.domain.Cachable;
+import co.javatoday.springdata.redis.domain.User;
 
 /**
  * 
@@ -14,7 +14,7 @@ import co.sdr.domain.User;
  */
 
 @Service("userService")
-public class UserService implements co.sdr.service.Service<User> {
+public class UserService implements co.javatoday.springdata.redis.service.Service<User> {
 
 	@Autowired
 	RedisTemplate<String, Cachable> redisTemplate;
